@@ -10,7 +10,7 @@ source:
   sha256: ed682885672af430b7b42b26e9001f5b61db051a5a4cdcf7345ac73ba8980ad3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - openff-toolkit-base
+    - openff-toolkit >=0.10.6,<0.11.0
     - numpy
     - openmm
 
