@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: ed682885672af430b7b42b26e9001f5b61db051a5a4cdcf7345ac73ba8980ad3
+  sha256: eec12f25772016f4417f4abf5d2c4db45799d5e1e03eb9dc60e5243ffda4b280
 
 build:
   number: 1
