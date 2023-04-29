@@ -1,11 +1,11 @@
-About smirnoff-plugins
-======================
+About smirnoff-plugins-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smirnoff-plugins-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/openforcefield/smirnoff-plugins
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smirnoff-plugins-feedstock/blob/main/LICENSE.txt)
 
 Summary: Custom parameter handlers for extending SMIRNOFF force fields.
 
