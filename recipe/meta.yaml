@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,<3.12
     - pip
   run:
     - python >=3.9
     - openff-toolkit-base >=0.14.3
-    - openff-interchange-base >=0.3.11
+    - openff-interchange-base >=0.3.11,<0.3.14
     - numpy
     - openmm
 
