@@ -7,15 +7,14 @@ Home: https://github.com/openforcefield/smirnoff-plugins
 
 Package license: MIT
 
-Summary: Custom parameter handlers for extending SMIRNOFF force fields.
+Summary: Custom classes for extending SMIRNOFF force fields.
 
 Development: https://github.com/openforcefield/smirnoff-plugins
 
 Documentation: https://github.com/openforcefield/smirnoff-plugins
 
-A framework that provides parameter handlers that enable using custom force field
-functional forms in SMIRNOFF based force fields via the OpenFF toolkits built-in
-plugin system.
+A framework that provides chasses which enable the use of custom force field
+functional forms in SMIRNOFF force fields via plugins in OpenFF infrastructure
 
 
 Current build status
@@ -104,7 +103,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
