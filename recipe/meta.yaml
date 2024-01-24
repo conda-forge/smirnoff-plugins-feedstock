@@ -1,5 +1,5 @@
 {% set name = "smirnoff-plugins" %}
-{% set version = "2023.10.0" %}
+{% set version = "2024.01.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: d63fa94ad9f72c1e22bebaec58e75781dce4d4f37c4bc6355cc20771d4e23119
+  sha256: 835ed5bdccdb814ce88cbb1bbc5fcc4197265f5ed4993790ee57c4d84422bfeb
 
 build:
   number: 0
@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.9,<3.12
+    - python >=3.9,<3.13
     - pip
   run:
     - python >=3.9
     - openff-toolkit-base >=0.14.3
-    - openff-interchange-base >=0.3.11,<0.3.14
+    - openff-interchange-base >=0.3.18
     - numpy
     - openmm
 
@@ -34,11 +34,10 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: Custom parameter handlers for extending SMIRNOFF force fields.
+  summary: Custom classes for extending SMIRNOFF force fields.
   description: |
-    A framework that provides parameter handlers that enable using custom force field
-    functional forms in SMIRNOFF based force fields via the OpenFF toolkits built-in
-    plugin system.
+    A framework that provides chasses which enable the use of custom force field
+    functional forms in SMIRNOFF force fields via plugins in OpenFF infrastructure
   doc_url: https://github.com/openforcefield/smirnoff-plugins
   dev_url: https://github.com/openforcefield/smirnoff-plugins
 
