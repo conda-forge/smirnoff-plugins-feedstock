@@ -1,5 +1,5 @@
 {% set name = "smirnoff-plugins" %}
-{% set version = "2024.01.0" %}
+{% set version = "2024.07.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/openforcefield/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 835ed5bdccdb814ce88cbb1bbc5fcc4197265f5ed4993790ee57c4d84422bfeb
+  sha256: e6ddc3cd883c4daa5fcc52effa8206ceeb2fd357dd460c0bb3d678b4806295dc
 
 build:
   number: 0
