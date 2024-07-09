@@ -20,8 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.9
-    - openff-toolkit-base >=0.14.3
-    - openff-interchange-base >=0.3.18
+    - openff-toolkit-base >=0.16
+    - openff-interchange-base >=0.3.27
     - numpy
     - openmm
 
