@@ -16,17 +16,19 @@ build:
 
 requirements:
   host:
-    - python >=3.10,<3.13
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
-    - python >=3.10
+    - python >={{ python_min }}
     - openff-toolkit-base >=0.16
     - openff-interchange-base =0.4
     - numpy
     - openmm
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - smirnoff_plugins
 
