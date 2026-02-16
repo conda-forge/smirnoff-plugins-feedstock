@@ -42,6 +42,7 @@ tests:
         - python ${{ python_min }}.*
         - pytest
         - rdkit
+        - ambertools
     script:
       - pytest -v --maxfail=1 --disable-warnings
 
