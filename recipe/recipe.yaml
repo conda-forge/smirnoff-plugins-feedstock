@@ -41,6 +41,7 @@ tests:
       run:
         - python ${{ python_min }}.*
         - pytest
+        - rdkit
     script:
       - pytest -v --maxfail=1 --disable-warnings
 
